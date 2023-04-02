@@ -24,3 +24,8 @@ body {
   margin-right: auto;
   margin-bottom: 80px;
 }
+
+.title h1{
+  margin: 40px 0 0 0;
+  color: lightgray;
+}

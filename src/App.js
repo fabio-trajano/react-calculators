@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>
-        <h1>Calculators:</h1>
+      <div className='title'>
+        <h1>CALCULATORS:</h1>
       </div>
       <div className='calc1'>
         <Calculator1 />
