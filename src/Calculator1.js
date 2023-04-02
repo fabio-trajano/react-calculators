@@ -1,8 +1,9 @@
+
 import {
   useState,
   useRef
 } from "react";
-import "./App.css";
+import "./Calculators.css";
 
 function Calculator1() {
   const inputRef = useRef(null);
@@ -40,7 +41,7 @@ function Calculator1() {
   };
 
   return (
-    <div className="Calculator">
+    <div className="calculator">
       <div>
         <h1>Simple Calculator</h1>
       </div>
@@ -58,8 +59,8 @@ function Calculator1() {
         <button onClick={minus}>subtract</button>
         <button onClick={times}>multiply</button>
         <button onClick={divide}>divide</button>
-        <button onClick={resetInput}>resetInput</button>
-        <button onClick={resetResult}>resetResult</button>
+        <button className='btn-red' onClick={resetInput}>reset input</button>
+        <button className='btn-red' onClick={resetResult}>reset result</button>
       </form>
     </div>
   );

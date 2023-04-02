@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+
+.btn-red {
+  background: rgb(238, 95, 70);
+  color: white;
+}
+
+.btn-green {
+  background: rgb(49, 217, 88);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.calculator {
+  padding: 3%;
+  background-color: lightgray;
+  color: rgb(57, 57, 57);
+  border: solid 2px black;
+  margin-top: 3%;
+  border-radius: 10px;
+}

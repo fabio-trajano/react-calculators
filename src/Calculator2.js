@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import "./Calculators.css";
 
 function Calculator2() {
   const [value, setValue] = useState('');
@@ -27,9 +28,9 @@ function Calculator2() {
       <div>
         <input type="text" value={value} onChange={handleInputChange} />
       </div>
-      <div className="buttons">
-        <button onClick={() => setValue('')}>Clear</button>
-        <button onClick={handleClear}>C</button>
+      <div className="buttons-calc2">
+        <button className='btn-red' onClick={() => setValue('')}>Clear</button>
+        <button className='btn-red' onClick={handleClear}>C</button>
         <button value="+" onClick={handleClick}>+</button>
         <button value="-" onClick={handleClick}>-</button>
         <button value="*" onClick={handleClick}>*</button>
@@ -45,7 +46,7 @@ function Calculator2() {
         <button value="3" onClick={handleClick}>3</button>
         <button value="0" onClick={handleClick}>0</button>
         <button value="." onClick={handleClick}>.</button>
-        <button onClick={handleCalculate}>=</button>
+        <button className='btn-green' onClick={handleCalculate}>=</button>
       </div>
     </div>
   );
